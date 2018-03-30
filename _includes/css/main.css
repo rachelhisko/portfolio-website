@@ -1,7 +1,7 @@
 html {
   font-family: 'Source Sans Pro', sans-serif;
   color: #000;
-  background-color: #f2f3f5;
+  background-color: #f9f9f9;
 }
 
 .button {
@@ -46,7 +46,6 @@ p {
 
 h1, h2, h4 {
   font-weight: 600;
-  letter-spacing: .06rem;
 }
 
 h2 {
@@ -55,7 +54,6 @@ h2 {
 
 h5 {
   font-weight: 400;
-  letter-spacing: .06rem;
   margin-top: 0
 }
 

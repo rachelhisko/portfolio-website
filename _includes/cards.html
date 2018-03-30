@@ -1,0 +1,20 @@
+<div class="grid wrapper push-1-4 gutter">
+
+  <div class="push card">
+    <div class="unit xs-1 s-1 l-1-2">
+      <a class="" href="{{site.baseurl}}{{include.url}}">
+        <div class="push-0 embed embed-3by2">
+          <img itemprop="image" class="embed-item img-flex" src="{{include.file}}" alt="{{include.alt}}">
+        </div>
+      </a>
+    </div>
+
+    <div class="unit xs-1 s-1 l-1-2 gutter-2 push pad-t">
+      <h4 itemprop="name" class="push-0 giga bold">{{include.title}}</h4>
+      <h5 itemprop="name" class="kilo push-1-2">{{include.caption}}</h5>
+      <p itemprop="description" class="milli">{{include.description}}</p>
+      <a itemprop="url" class="button" href="{{site.baseurl}}{{include.url}}">{{include.link}}</a>
+    </div>
+  </div>
+
+</div>
