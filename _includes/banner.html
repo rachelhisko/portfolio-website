@@ -1,65 +1,12 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112314742-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112314742-1');
-</script>
-
-  <meta charset="utf-8">
-  <title>{% if page.title %}{{page.title}} • {% endif %}Rachel Hisko Portfolio Website</title>
-  <meta name="description" content="A website to display my work I accomplished from 2015-2018.">
-  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-</head>
-
-<body itemscope itemtype="https://schema.org/WebSite">
-
-  <ul class="skip-links">
-    <li><a href="#nav">Jump to navagation</a></li>
-    <li><a href="#portfolio">Jump to portfolio work</a></li>
-  </ul>
-
-  <header class="nav">
-
-    <div class="wrapper pad-t-1-2 gutter">
-      <div>
-        <ul class="list-group">
-          <li itemprop="url" class="inline-block"><a class="nav" href="{{site.baseurl}}main.html">Rachel Hisko</a></li>
-          <div class="right">
-            <li itemprop="url" class="inline-block gutter"><a class="nav" href="{{site.baseurl}}main.html">Projects</a></li>
-            <li itemprop="url" class="inline-block gutte"><a class="nav" href="{{site.baseurl}}about.html">About</a></li>
-          </div>
-        </ul>
-      </div>
-
-    </div>
-
-  </header>
-
-  <main class="" id="content">
-
-      {{content}}
-
-  </main>
-
-  <footer class="footer">
+<section class="banner push-2">
 
   <div class="wrapper gutter">
 
     <div class="pad-t-1-2">
-      <p>©Rachel Hisko</p>
+      <h1 itemprop="name" class="push-0">Human-Centered Designer</h1>
+      <h2 itemprop="name" class="mega">Designing interfaces that can make an impact on our world.</h2>
     </div>
 
-    <div class="milli">
-      <a class="email" href="mailto:rachel@hiskodesigns.ca">rachel@hiskodesigns.ca</a>
-    </div>
     <div class="pad-t-1-2">
       <div class="inline-block push-r-1-2">
         <i class="icon i-32">
@@ -71,8 +18,10 @@
           <a itemprop="url" class="icon-link social" href="https://www.instagram.com/hiskodesigns"><svg xmlns="http://www.w3.org/2000/svg" width="95.6" height="88.1" viewBox="0 0 95.6 88.1"><path d="M47.2 14.5c9.6 0 10.8 0 14.5.2a19.9 19.9 0 0 1 6.8 1.3 11.9 11.9 0 0 1 6.8 6.8 19.9 19.9 0 0 1 1.2 6.7c.2 3.8.2 4.9.2 14.5s0 10.8-.2 14.5a19.9 19.9 0 0 1-1.2 6.7 11.9 11.9 0 0 1-6.8 6.8 19.9 19.9 0 0 1-6.7 1.2c-3.8.2-4.9.2-14.5.2s-10.8 0-14.5-.2a19.9 19.9 0 0 1-6.8-1.1 11.9 11.9 0 0 1-6.8-6.8 19.9 19.9 0 0 1-1.2-6.7c-.2-3.8-.2-4.9-.2-14.5s0-10.8.2-14.5a19.9 19.9 0 0 1 1.2-6.7A11.9 11.9 0 0 1 26 16a19.9 19.9 0 0 1 6.7-1.2c3.8-.2 4.9-.2 14.5-.2m0-6.5c-9.8 0-11 0-14.8.2a26.4 26.4 0 0 0-8.7 1.7 18.4 18.4 0 0 0-10.6 10.5 26.4 26.4 0 0 0-1.7 8.7c-.2 3.8-.2 5.1-.2 14.8s0 11 .2 14.8a26.4 26.4 0 0 0 1.7 8.7 18.4 18.4 0 0 0 10.6 10.6 26.4 26.4 0 0 0 8.7 1.7c3.8.2 5.1.2 14.8.2s11 0 14.8-.2a26.4 26.4 0 0 0 8.7-1.7 18.4 18.4 0 0 0 10.7-10.5 26.4 26.4 0 0 0 1.6-8.7c.2-3.8.2-5.1.2-14.8s0-11-.2-14.8a26.4 26.4 0 0 0-1.7-8.7A18.4 18.4 0 0 0 70.8 9.9a26.4 26.4 0 0 0-8.7-1.7C58.2 8.1 57 8 47.2 8z"/><path d="M47.2 25.5A18.5 18.5 0 1 0 65.7 44a18.5 18.5 0 0 0-18.5-18.5zm0 30.5a12 12 0 1 1 12-12 12 12 0 0 1-12 12z"/><circle cx="66.5" cy="24.8" r="4.3"/></svg></a>
         </i>
       </div>
+      <div class="inline-block milli">
+        <a class="email" href="mailto:rachel@hiskodesigns.ca">rachel@hiskodesigns.ca</a>
+      </div>
     </div>
 
-  </footer>
-</body>
-</html>
+  </div>
+</section>
