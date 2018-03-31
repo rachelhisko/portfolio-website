@@ -37,6 +37,9 @@ p {
   margin-top: 0;
 }
 
+.bold {
+  font-weight: 600;
+}
 .social {
   color: white;
 }
