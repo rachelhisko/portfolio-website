@@ -9,10 +9,15 @@ meta: {{page.meta}}
   <main class="wrapper push-1-2" id="main">
 
     <div class="wrapper gutter line-length">
-      <h3 class="underline push-0 pad-t" itemprop="name">{{page.main-title}}</h3>
-      <h4 class="push" itemprop="name">{{page.main-caption}}</h4>
+      <h1 class="underline push-0 pad-t" itemprop="name">{{page.main-title}}</h1>
+      <h3 class="push-2" itemprop="name">{{page.main-caption}}</h3>
       <div class="push">
-        <h3 itemprop="name" class="mega underline push-1-4" itemprop="name">{{page.problem}}</h3>
+        <h4 itemprop="name" class="underline push-1-2" itemprop="name">{{page.topic1-title}}</h4>
+        <p class="milli push-1-4" itemprop="description">{{page.topic1-text}}</p>
+        <p class="milli push" itemprop="description">{{page.topic2-text}}</p>
+      </div>
+      <div class="push">
+        <h4 itemprop="name" class="underline push-1-2" itemprop="name">{{page.problem}}</h4>
         <p class="milli push" itemprop="description">{{page.problem-text}}</p>
       </div>
     </div>
@@ -21,80 +26,112 @@ meta: {{page.meta}}
       <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.main-image}}" alt="{{page.alt-main-image}}">
     </div>
     <div class="wrapper gutter line-length">
-      <h3 itemprop="name" class="mega underline push-1-4">{{page.solution}}</h3>
-      <p itemprop="description" class="milli push">{{page.solution-text}}</p>
-      <h3 itemprop="name" class="mega underline push-1-4">{{page.sketches}}</h3>
+      <h4 itemprop="name" class=" underline push-1-2">{{page.solution}}</h4>
+      <p itemprop="description" class="milli push-2">{{page.solution-text}}</p>
+      <h4 itemprop="name" class="underline push-1-2">{{page.sketches}}</h4>
     </div>
 
-    <div class="wrapper gutter grid">
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
+    <div class="wrapper gutter grid push-2">
+      <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 push-1-2">
         <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketch-1}}" alt="{{page.alt-sketch1}}">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
+      <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 push-1-2">
         <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketch-2}}" alt="{{page.alt-sketch2}}">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
+      <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 push-1-2">
         <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketch-3}}" alt="{{page.alt-sketch3}}">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
+      <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 push-1-2">
         <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketch-4}}" alt="{{page.alt-sketch4}}">
       </div>
-    </div>
-
-    <div class="wrapper gutter line-length">
-      <h3 itemprop="name" class="underline pad-t mega">{{page.pattern}}</h3>
-    </div>
-    <div class="wrapper gutter grid">
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.pattern1}}" alt="{{page.alt-pattern1}}">
+      <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketch-5}}" alt="{{page.alt-sketch4}}">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.pattern2}}" alt="{{page.alt-pattern2}}">
-      </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.pattern3}}" alt="{{page.alt-pattern3}}">
-      </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.pattern4}}" alt="{{page.alt-pattern4}}">
+      <div class="unit xs-1-2 s-1-2 m-1-6 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.sketch-6}}" alt="{{page.alt-sketch4}}">
       </div>
     </div>
 
     <div class="wrapper gutter line-length">
-      <h3 itemprop="name" class="underline pad-t mega">{{page.visual-design}}</h3>
+      <h4 itemprop="name" class="underline pad-t push-1-2">{{page.wire}}</h4>
+    </div>
+    <div class="wrapper gutter grid push-2">
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-6 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.wire1}}" alt="{{page.alt-visual-design1}}">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-6 l-1-6 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.wire2}}" alt="{{page.alt-visual-design2}}">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-6 l-1-6 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.wire3}}" alt="{{page.alt-visual-design3}}">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-6 l-1-6 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.wire4}}" alt="{{page.alt-visual-design1}}">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-6 l-1-6 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.wire5}}" alt="{{page.alt-wireframes5}}">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-6 l-1-6 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.wire6}}" alt="{{page.alt-wireframes6}}">
+      </div>
+    </div>
+
+    <div class="wrapper gutter line-length">
+      <h4 itemprop="name" class="underline pad-t push-1-2">{{page.visual-design}}</h4>
     </div>
     <div class="wrapper gutter grid">
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 push-1-2">
         <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design1}}" alt="{{page.alt-visual-design1}}">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 push-1-2">
         <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design2}}" alt="{{page.alt-visual-design2}}">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 push-1-2">
         <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design3}}" alt="{{page.alt-visual-design3}}">
-      </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design4}}" alt="{{page.alt-visual-design4}}">
       </div>
     </div>
     <div class="wrapper gutter grid">
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design5}}" alt="{{page.alt-pattern5}}">
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design4}}" alt="{{page.alt-pattern5}}">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design6}}" alt="{{page.alt-visual-design6}}">
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design5}}" alt="{{page.alt-visual-design6}}">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design7}}" alt="{{page.alt-visual-design7}}">
-      </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 gutter-1-2 push-1-2">
-        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design8}}" alt="{{page.alt-visual-design8}}">
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 push-1-2">
+        <img itemprop="image" class="img-flex" src="{{site.baseurl}}{{page.visual-design6}}" alt="{{page.alt-visual-design7}}">
       </div>
     </div>
 
-    <div class="wrapper gutter line-length">
+    <div class="wrapper gutter line-length push-2">
+      <h4 itemprop="name" class="underline push-1-2">{{page.feature}}</h4>
+      <h5 itemprop="name" class="push-0">{{page.feature-title1}}</h5>
       <p itemprop="description" class="milli">{{page.one}}</p>
+      <h5 itemprop="name" class="push-0">{{page.feature-title2}}</h5>
       <p itemprop="description" class="milli">{{page.two}}</p>
+      <h5 itemprop="name" class="push-0">{{page.feature-title3}}</h5>
       <p itemprop="description" class="milli">{{page.three}}</p>
+    </div>
+
+    <div class="content gutter-1-2 push-2">
+      <p>Design by Rachel Hisko</p>
+    </div>
+
+    <div class="content gutter-1-2 nav-link pad-t-1-2">
+      <div class="inline">
+        <a href="{{site.baseurl}}/{{page.previous}}">Previous</a>
+      </div>
+      <div class="text-center push pad-t inline gutter">
+        <a class="ib" itemprop="url" href="{{site.baseurl}}/#portfolio">
+          <i class="icon-link icon i-32">
+            <svg>
+              <use xlink:href="{{site.baseurl}}/images/icons.svg#dashboard"></use>
+            </svg>
+          </i>
+        </a>
+      </div>
+      <div class="inline">
+        <a href="{{site.baseurl}}/{{page.next}}">Next</a>
+      </div>
     </div>
 
   </main>
